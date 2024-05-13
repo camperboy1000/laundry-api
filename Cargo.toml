@@ -21,7 +21,7 @@ sqlx = { version = "0.6", features = [
 syslog = "6.1"
 time = { version = "0.3", features = ["serde"] }
 utoipa = { version = "3.4", features = ["actix_extras", "time"] }
-utoipa-swagger-ui = { version = "3.1", features = ["actix-web"] }
+utoipa-swagger-ui = { version = "7.0", features = ["actix-web"] }
 
 [profile.dev.package.sqlx-macros]
 opt-level = 3
